@@ -549,7 +549,7 @@ union DriverType {
 }
 
 /**
- * The Managed GPU experience installs additional components, such as the DCGM metrics for monitoring, on top of the GPU driver for you. For more details of what is installed, check out aka.ms/aks/managed-gpu.
+ * The Managed GPU experience installs additional components, such as the Data Center GPU Manager (DCGM) metrics for monitoring, on top of the GPU driver for you. For more details of what is installed, check out aka.ms/aks/managed-gpu.
  */
 @added(Versions.v2026_01_02_preview)
 union ManagementMode {

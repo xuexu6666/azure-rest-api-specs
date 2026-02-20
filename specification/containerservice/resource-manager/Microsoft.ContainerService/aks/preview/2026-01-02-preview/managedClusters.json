@@ -12331,7 +12331,7 @@
     },
     "ManagementMode": {
       "type": "string",
-      "description": "The Managed GPU experience installs additional components, such as the DCGM metrics for monitoring, on top of the GPU driver for you. For more details of what is installed, check out aka.ms/aks/managed-gpu.",
+      "description": "The Managed GPU experience installs additional components, such as the Data Center GPU Manager (DCGM) metrics for monitoring, on top of the GPU driver for you. For more details of what is installed, check out aka.ms/aks/managed-gpu.",
       "enum": [
         "Unmanaged",
         "Managed"
@@ -13188,7 +13188,7 @@
       "properties": {
         "managementMode": {
           "$ref": "#/definitions/ManagementMode",
-          "description": "The Managed GPU experience installs additional components, such as the DCGM metrics for monitoring, on top of the GPU driver for you. For more details of what is installed, check out aka.ms/aks/managed-gpu."
+          "description": "The Managed GPU experience installs additional components, such as the Data Center GPU Manager (DCGM) metrics for monitoring, on top of the GPU driver for you. For more details of what is installed, check out aka.ms/aks/managed-gpu."
         },
         "migStrategy": {
           "$ref": "#/definitions/MigStrategy",
